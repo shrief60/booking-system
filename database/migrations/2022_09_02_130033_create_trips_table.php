@@ -19,6 +19,7 @@ class CreateTripsTable extends Migration
             $table->longText('description');
             $table->unsignedBigInteger('from_station');
             $table->unsignedBigInteger('to_station');
+            $table->unsignedBigInteger('bus_id');
             $table->string('start_time');
             $table->string('end_time');
             $table->string('status');
